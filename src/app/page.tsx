@@ -110,7 +110,7 @@ export default function Home() {
         </div>
         </div>
       </div>
-
+      
       {/* Footer/ Social Media Links */}
       <Footer container>
         <div className="w-full bg-green-300 ">
