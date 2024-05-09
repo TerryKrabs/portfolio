@@ -17,7 +17,7 @@ export default function Home() {
             <div className="flex justify-center">
               <img
                 src="/assets/HeadshotX.jpg"
-                className="border-4 shadow border-white rounded-full w-[300px] rotateIn"
+                className="border-4 shadow border-green-300 rounded-full w-[300px] rotateIn"
                 alt="Portfolio Picture "
               />
             </div>
@@ -25,7 +25,7 @@ export default function Home() {
           <div className=" col-span-6 md:col-span-3 lg:col-span-4 lg:px-16 flex flex-col justify-between">
             <div className="">
               <div className="flex flex-col items-center text-3xl pt-14">
-                <p className="text-3xl font-bold mb-5">Software Developer</p>
+                <p className="text-3xl font-bold mb-5 text-green-300">Software Developer</p>
                 <p className="text-2xl">
                   {" "}
                   Xavier Hopkins, as a Software Developer, is responsible for
@@ -42,27 +42,26 @@ export default function Home() {
                 <h1></h1>
               </div>
               <div className=" grid grid-cols-2 pt-8 ">
-                <div className="text-2xl">
-                  <p>Languages:</p>
+                <div className="text-2xl text-green-300">
+                  <p className="text-green-300">Languages:</p>
                   <div>
                     <ul className="grid grid-cols-2">
-                      <li>Js</li>
-                      <li>HTML</li>
-                      <li>CSS</li>
-                      <li>TS</li>
-                      <li>SQL</li>
-                      <li>TSX</li>
+                      <li><img className="w-[50px] h-[50px]" src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/javascript/javascript-original.svg" /></li>
+                      <li><img className="w-[50px] h-[50px]" src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/html5/html5-plain-wordmark.svg" /></li>
+                      <li><img className="w-[50px] h-[50px]" src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/css3/css3-plain-wordmark.svg" /></li>
+                      <li><img  className="w-[50px] h-[50px]"src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/typescript/typescript-original.svg" /></li>
+                      <li><img className="w-[50px] h-[50px]" src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/azuresqldatabase/azuresqldatabase-original.svg" /></li>
                     </ul>
                   </div>
                 </div>
-                <div className="text-2xl">
-                  <p> Frameworks:</p>
+                <div className="text-2xl  ">
+                  <p className="text-green-300"> Frameworks:</p>
                   <ul className="grid grid-cols-2">
-                    <li>Dotnet 7</li>
-                    <li>React</li>
-                    <li>Next JS</li>
-                    <li>Tailwind</li>
-                    <li>Bootstrap</li>
+                    <li><img className="w-[50px] h-[50px]" src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/dot-net/dot-net-plain-wordmark.svg" /></li>
+                    <li><img className="w-[50px] h-[50px]" src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/react/react-original-wordmark.svg" /></li>
+                    <li><img className="w-[50px] h-[50px]" src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/nextjs/nextjs-original.svg" /></li>
+                    <li><img className="w-[50px] h-[50px]" src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/tailwindcss/tailwindcss-original-wordmark.svg" /></li>
+                    <li><img className="w-[50px] h-[50px]" src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/bootstrap/bootstrap-original-wordmark.svg" /></li>
                   </ul>
                 </div>
               </div>
@@ -70,47 +69,51 @@ export default function Home() {
           </div>
         </div>
 
-
         <div className="border-2 shadow border-white ">
-        <div className="flex flex-col items-center text-4xl font-bold pt-10">
-          <p className="pb-5">Projects</p>
-        </div>
+          <div className="flex flex-col items-center text-4xl font-bold pt-10">
+            <p className="pb-5 text-green-300">Projects</p>
+          </div>
 
-        <div className="grid grid-cols-6 mx-7 py-8 px-2 gap-5">
-          <div className=" col-span-6 md:col-span-3 lg:col-span-2  md:w-full w-48 ml-20 md:ml-0">
-            <h1 className="text-3xl font-bold text-center">ShorTalk</h1>
-            <a href="https://shortalk-front-end.vercel.app/">
-            <img src="/assets/ShortTalkPng.png" alt="ShorTalkPicture" />
-            </a>
-            <h3 className="text-2xl text-center">
-              Worked Primarily on the front-end while providing assistance to
-              the back-end devs whenever needed. ShorTalk was inspired by the
-              board game {"'"}Poetry for Neanderthals{"'"}, but adds the accessability
-              of being readily availible online too play with friends!
-            </h3>
+          <div className="grid grid-cols-6 mx-7 py-8 px-2 gap-5">
+            <div className=" col-span-6 md:col-span-3 lg:col-span-2  md:w-full w-48 ml-20 md:ml-0">
+              <h1 className="text-3xl font-bold text-center">ShorTalk</h1>
+              <a href="https://shortalk-front-end.vercel.app/">
+                <img src="/assets/ShortTalkPng.png" alt="ShorTalkPicture" />
+              </a>
+              <h3 className="text-2xl text-center">
+                Worked Primarily on the front-end while providing assistance to
+                the back-end devs whenever needed. ShorTalk was inspired by the
+                board game {"'"}Poetry for Neanderthals{"'"}, but adds the
+                accessability of being readily availible online too play with
+                friends!
+              </h3>
+            </div>
+            <div className=" col-span-6 md:col-span-3 lg:col-span-2  md:w-full w-48 ml-20 md:ml-0">
+              <h1 className="text-3xl font-bold text-center ">Tip Calculator</h1>
+              <a href="https://tipcalc-six.vercel.app/">
+                <img src="/assets/TipCalcPic.png" alt="TipCalcPIcture" />
+              </a>
+              <h3 className="text-2xl text-center">
+                A small application used for calculating the total at the end of
+                a meal!
+              </h3>
+            </div>
+            <div className=" col-span-6 md:col-span-3 lg:col-span-2  md:w-full w-48 ml-20 md:ml-0">
+              <h1 className="text-3xl font-bold text-center">
+                Social Media Deashboard
+              </h1>
+              <a href="https://final-dash-gray.vercel.app/">
+                <img src="/assets/SMDpicture.png" alt="Social" />
+              </a>
+              <h3 className="text-2xl text-center">
+                This website was based off a prototype for an upcoming social
+                media app!
+              </h3>
+            </div>
           </div>
-          <div className=" col-span-6 md:col-span-3 lg:col-span-2  md:w-full w-48 ml-20 md:ml-0">
-            <h1 className="text-3xl font-bold text-center">Tip Calculator</h1>
-            <a href="https://tipcalc-six.vercel.app/">
-            <img src="/assets/TipCalcPic.png" alt="TipCalcPIcture" />
-            </a>
-            <h3 className="text-2xl text-center">
-            A small application used for calculating the total at the end of a meal!
-            </h3>
-          </div>
-          <div className=" col-span-6 md:col-span-3 lg:col-span-2  md:w-full w-48 ml-20 md:ml-0">
-            <h1 className="text-3xl font-bold text-center">Social Media Deashboard</h1>
-            <a href="https://final-dash-gray.vercel.app/">
-              <img src="/assets/SMDpicture.png" alt="Social" />
-            </a>
-            <h3 className="text-2xl text-center">
-             This website was based off a prototype for an upcoming social media app! 
-            </h3>
-          </div>
-        </div>
         </div>
       </div>
-      
+
       {/* Footer/ Social Media Links */}
       <Footer container>
         <div className="w-full bg-green-300 ">
