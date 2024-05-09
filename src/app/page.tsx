@@ -85,7 +85,7 @@ export default function Home() {
             <h3 className="text-2xl text-center">
               Worked Primarily on the front-end while providing assistance to
               the back-end devs whenever needed. ShorTalk was inspired by the
-              board game "Poetry for Neanderthals", but adds the accessability
+              board game {"'"}Poetry for Neanderthals{"'"}, but adds the accessability
               of being readily availible online too play with friends!
             </h3>
           </div>
