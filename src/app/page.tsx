@@ -40,16 +40,17 @@ export default function Home() {
                 <div className="text-2xl text-green-300 ">
                   <p className="text-green-300">Languages:</p>
                   <div>
-                    <ul className="grid grid-cols-5 mt-5">
+                    <ul className="grid grid-cols-6 mt-5">
                       <li><img className="w-[50px] h-[50px] slideRight" src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/javascript/javascript-original.svg" /></li>
                       <li><img className="w-[50px] h-[50px] slideRight" src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/html5/html5-plain-wordmark.svg" /></li>
                       <li><img className="w-[50px] h-[50px] slideRight" src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/css3/css3-plain-wordmark.svg" /></li>
                       <li><img  className="w-[50px] h-[50px] slideRight"src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/typescript/typescript-original.svg" /></li>
                       <li><img className="w-[50px] h-[50px] slideRight" src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/azuresqldatabase/azuresqldatabase-original.svg" /></li>
+                      <li><img className="w-[50px] h-[50px] slideRight" src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/csharp/csharp-original.svg" /></li>
                     </ul>
                   </div> 
                 </div>
-                <div className="text-2xl ml-16 ">
+                <div className="text-2xl ml-16  ">
                   <p className="text-green-300"> Frameworks:</p>
                   <ul className="grid grid-cols-5 mt-5">
                     <li><img className="w-[50px] h-[50px] slideLeft" src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/dot-net/dot-net-plain-wordmark.svg" /></li>
@@ -60,17 +61,41 @@ export default function Home() {
                   </ul>
                   
                 </div>
+
+                <div className="text-2xl text-green-300 mt-5">
+                  <p className="text-green-300">Productivity:</p>
+                  <div> 
+                    <ul className="grid grid-cols-7 mt-5">
+                      <li><img className="w-[50px] h-[50px] slideRight" src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/vscode/vscode-original-wordmark.svg" /></li>
+                      <li><img className="w-[50px] h-[50px] slideRight" src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/azure/azure-original-wordmark.svg" /></li>
+                      <li><img className="w-[50px] h-[50px] slideRight" src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/slack/slack-original.svg" /></li>
+                      <li><img  className="w-[50px] h-[50px] slideRight"src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/jira/jira-original-wordmark.svg" /></li>
+                      <li><img className="w-[50px] h-[50px] slideRight" src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/notion/notion-original.svg" /></li>
+                      <li><img className="w-[50px] h-[50px] slideRight" src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/figma/figma-original.svg" /></li>
+                      {/* <li> <BsGithub className="w-[50px] h-[50px] slideRight"/> </li> */}
+                      <li><img className="w-[50px] h-[50px] slideRight" src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/postman/postman-original.svg" /></li>
+                      {/* <li><img className="w-[50px] h-[50px] slideRight" src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/unity/unity-original-wordmark.svg" /></li> */}
+
+
+                    </ul>
+                  </div> 
+                </div>
+
+
+          
+
               </div>
             </div>
           </div>
 
 
+                  {/* VScode, Github, Slack, Azure, Jira, Figma Notion */}
 
 
 
           <div className=" col-span-6 md:col-span-3 lg:col-span-2  md:w-full w-48 ml-20 md:ml-0">
             <div className="flex justify-center">
-              <img  src="/assets/HeadshotX.jpg" className="border-4 shadow border-green-300 rounded-full w-[300px] " alt="Portfolio Picture "
+              <img  src="/assets/HeadshotX.jpg" className=" rounded-full w-[300px] " alt="Portfolio Picture "
               />
             </div>
           </div>
@@ -101,8 +126,8 @@ export default function Home() {
               <a target="blank" href="https://tipcalc-six.vercel.app/">
                 <img src="/assets/TipCalcPic.png" alt="TipCalcPIcture" />
               </a>
-              
-              <img className="w-[50px] h-[50px] slideRight" src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/javascript/javascript-original.svg" />
+
+              {/* <img className="w-[50px] h-[50px] slideRight" src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/javascript/javascript-original.svg" /> */}
 
               <h3 className="text-2xl text-center">
                 A small application used for calculating the total at the end of
@@ -150,3 +175,21 @@ export default function Home() {
     </>
   );
 }
+
+
+
+
+
+/* <div className=" text-2xl text-green-300 mt-5 pl-60">
+<p className="text-green-300 flex justify-center">Productivity:</p> */
+/* VScode, Github, Slack, Azure, Jira, Figma Notion */
+/* <div className=" justify-center ml-9">
+  <ul className="grid grid-cols-5 mt-5">
+    <li><img className="w-[50px] h-[50px] slideRight" src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/javascript/javascript-original.svg" /></li>
+    <li><img className="w-[50px] h-[50px] slideRight" src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/html5/html5-plain-wordmark.svg" /></li>
+    <li><img className="w-[50px] h-[50px] slideRight" src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/css3/css3-plain-wordmark.svg" /></li>
+    <li><img  className="w-[50px] h-[50px] slideRight"src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/typescript/typescript-original.svg" /></li>
+    <li><img className="w-[50px] h-[50px] slideRight" src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/azuresqldatabase/azuresqldatabase-original.svg" /></li>
+  </ul>
+</div> 
+</div> */
