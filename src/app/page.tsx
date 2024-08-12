@@ -23,7 +23,7 @@ export default function Home() {
                 <p className="text-3xl font-bold mb-5 text-green-300 ">Software Developer</p>
                 <p className="text-2xl ">
                   {" "}
-                  As a Software Developer, i'm responsible for
+                  As a Software Developer, I am responsible for
                   designing, coding, testing, and maintaining software
                   applications. My duties include collaborating with team
                   members to analyze user needs and design software solutions,
