@@ -1,7 +1,7 @@
 "use client";
 import Link from "next/link";
 import { Navbar, Footer } from "flowbite-react";
-import { BsGithub,BsLinkedin} from "react-icons/bs";
+import { BsGithub, BsLinkedin } from "react-icons/bs";
 import { NavbarComponent } from "@/components/NavbarComponent";
 import DescriptionIcon from '@mui/icons-material/Description';
 import LinkedInIcon from '@mui/icons-material/LinkedIn';
@@ -12,12 +12,12 @@ export default function Home() {
     <>
       <div className="bg-gray-900 ">
         <div>
-        <NavbarComponent/>
+          <NavbarComponent />
         </div>
 
         <div className="grid grid-cols-6 mx-7 py-8">
 
-        <div className=" col-span-6 md:col-span-3 lg:col-span-4 lg:px-16 flex flex-col justify-between">
+          <div className=" col-span-6 md:col-span-3 lg:col-span-4 lg:px-16 flex flex-col justify-between">
             <div className="">
               <div className="flex flex-col items-center text-3xl pt-14">
                 <p className="text-3xl font-bold mb-5 text-green-300 ">Software Developer</p>
@@ -44,11 +44,11 @@ export default function Home() {
                       <li><img className="w-[50px] h-[50px] slideRight" src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/javascript/javascript-original.svg" /></li>
                       <li><img className="w-[50px] h-[50px] slideRight" src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/html5/html5-plain-wordmark.svg" /></li>
                       <li><img className="w-[50px] h-[50px] slideRight" src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/css3/css3-plain-wordmark.svg" /></li>
-                      <li><img  className="w-[50px] h-[50px] slideRight"src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/typescript/typescript-original.svg" /></li>
+                      <li><img className="w-[50px] h-[50px] slideRight" src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/typescript/typescript-original.svg" /></li>
                       <li><img className="w-[50px] h-[50px] slideRight" src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/azuresqldatabase/azuresqldatabase-original.svg" /></li>
                       <li><img className="w-[50px] h-[50px] slideRight" src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/csharp/csharp-original.svg" /></li>
                     </ul>
-                  </div> 
+                  </div>
                 </div>
                 <div className="text-2xl ml-16  ">
                   <p className="text-green-300"> Frameworks:</p>
@@ -59,17 +59,17 @@ export default function Home() {
                     <li><img className="w-[50px] h-[50px] slideLeft" src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/tailwindcss/tailwindcss-original.svg" /></li>
                     <li><img className="w-[50px] h-[50px] slideLeft" src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/bootstrap/bootstrap-original-wordmark.svg" /></li>
                   </ul>
-                  
+
                 </div>
 
                 <div className="text-2xl text-green-300 mt-5">
                   <p className="text-green-300">Productivity:</p>
-                  <div> 
+                  <div>
                     <ul className="grid grid-cols-7 mt-5">
                       <li><img className="w-[50px] h-[50px] slideRight" src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/vscode/vscode-original-wordmark.svg" /></li>
                       <li><img className="w-[50px] h-[50px] slideRight" src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/azure/azure-original-wordmark.svg" /></li>
                       <li><img className="w-[50px] h-[50px] slideRight" src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/slack/slack-original.svg" /></li>
-                      <li><img  className="w-[50px] h-[50px] slideRight"src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/jira/jira-original-wordmark.svg" /></li>
+                      <li><img className="w-[50px] h-[50px] slideRight" src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/jira/jira-original-wordmark.svg" /></li>
                       <li><img className="w-[50px] h-[50px] slideRight" src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/notion/notion-original.svg" /></li>
                       <li><img className="w-[50px] h-[50px] slideRight" src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/figma/figma-original.svg" /></li>
                       {/* <li> <BsGithub className="w-[50px] h-[50px] slideRight"/> </li> */}
@@ -78,24 +78,24 @@ export default function Home() {
 
 
                     </ul>
-                  </div> 
+                  </div>
                 </div>
 
 
-          
+
 
               </div>
             </div>
           </div>
 
 
-                  {/* VScode, Github, Slack, Azure, Jira, Figma Notion */}
+          {/* VScode, Github, Slack, Azure, Jira, Figma Notion */}
 
 
 
           <div className=" col-span-6 md:col-span-3 lg:col-span-2  md:w-full w-48 ml-20 md:ml-0">
             <div className="flex justify-center">
-              <img  src="/assets/HeadshotX.jpg" className=" rounded-full w-[300px] " alt="Portfolio Picture "
+              <img src="/assets/HeadshotX.jpg" className=" rounded-full w-[300px] " alt="Portfolio Picture "
               />
             </div>
           </div>
